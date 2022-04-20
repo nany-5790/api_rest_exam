@@ -1,0 +1,4 @@
+curl -X POST -d "username=admin&password=admin123456" http://localhost:8000/api-token-auth/
+{"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJ1c2VybmFtZSI6ImFkbWluIiwiZXhwIjoxNjUwNDMxMzc3LCJlbWFpbCI6InBwQHBwLmNvbSJ9.gC37wQtyWantjt7njzNlqqld5QQLe4Sk8wbLxCDyV-o"}
+
+curl -H "Authorization: JWT eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJ1c2VybmFtZSI6ImFkbWluIiwiZXhwIjoxNjUwNDMxMzMwLCJlbWFpbCI6InBwQHBwLmNvbSJ9.ZO6rOPTS-MV-rmJ1IXRqRxs87Y230dM-xc0ascNmpQU" "http://localhost:8000/api/v2/get/parcel/tracking.json/?tracking_number=BPS65O4WYLBWWBR"

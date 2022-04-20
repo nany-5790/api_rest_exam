@@ -1,6 +1,6 @@
 *.logs
 *.pyc
-.DStore
+.DS_Store
 .idea/
 api_rest/settings.py
 api_rest/secret_key.py
