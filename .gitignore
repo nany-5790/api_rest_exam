@@ -1,0 +1,7 @@
+*.logs
+*.pyc
+.DStore
+.idea/
+api_rest/settings.py
+api_rest/secret_key.py
+db.sqlite3
