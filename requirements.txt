@@ -1,10 +1,13 @@
-
 Package                 Version
------------------------ --------
+----------------------- ---------
 asgiref                 3.2.10
+certifi                 2021.10.8
 chardet                 4.0.0
+charset-normalizer      2.0.12
 Django                  3.1
+djangorestframework     3.13.1
 djangorestframework-jwt 1.11.0
+idna                    3.3
 imutils                 0.5.4
 opencv-contrib-python   4.5.1.48
 Pillow                  8.0.1
@@ -17,4 +20,6 @@ requests                2.27.1
 setuptools              46.4.0
 six                     1.15.0
 sqlparse                0.4.1
+urllib3                 1.26.9
 wheel                   0.34.2
+
